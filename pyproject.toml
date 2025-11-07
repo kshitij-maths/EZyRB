@@ -6,7 +6,6 @@ readme = "README.md"
 authors = [
     {name = "Nicola Demo", email = "demo.nicola@gmail.com"},
     {name = "Marco Tezzele", email = "marcotez@gmail.com"},
-    {name = "Kshitij Kumar Pandey", email = "kshitij.sxcr@gmail.com"}
 ]
 license = { text = "MIT" }
 keywords = [
