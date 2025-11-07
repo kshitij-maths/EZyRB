@@ -6,7 +6,6 @@ __all__ = [
     'ReducedOrderModel', 'PODAE', 'RegularGrid'
 ]
 
-from .meta import *
 from .database import Database
 from .snapshot import Snapshot
 from .parameter import Parameter

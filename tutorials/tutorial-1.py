@@ -82,7 +82,7 @@ for i in range(8):
     ax[i].triplot(triang, 'b-', lw=0.1)
     cm = ax[i].tripcolor(triang, snapshots[i])
     fig.colorbar(cm, ax=ax[i])
-    ax[i].set_title('($\mu_0={:5.2f}, \mu_1={:5.2f})$'.format(*param[i]))
+    ax[i].set_title(r'($\mu_0={:5.2f}, \mu_1={:5.2f})$'.format(*param[i]))
 
 
 # First of all, we create a `Database` object from the parameters and the snapshots.
